@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>International Conference of Global Confucius Institute – International Conference of Global Confucius Institute</title>
+    <title>International Conference of Global Confucius Institute</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -38,7 +38,7 @@
 	      <!-- <a class="navbar-brand" href="/">Even<span>talk.</span></a> -->
         <a class="navbar-brand" href="/">
           <span>
-            <img width="300" height="100" src="icon/icgci-logo-emas-2.png" alt="icgci logo emas 2" sizes="247px">
+            <img width="210" height="70" src="icon/icgci-logo-emas-2.png" alt="icgci logo emas 2" sizes="247px">
           </span>
         </a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,13 +47,43 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="/speakers" class="nav-link">Speakers</a></li>
+	          <li class="nav-item {{ ($title === 'International Conference of Global Confucius Institute') ? 'active' : '' }}"><a href="/" class="nav-link">Home</a></li>
+	          <!-- <li class="nav-item"><a href="/about" class="nav-link">About</a></li> -->
+            <li class="nav-item dropdown {{ ($title === 'Scopes - International Conference of Global Confucius Institute') || ($title === 'Committee - International Conference of Global Confucius Institute') ? 'active' : '' }}">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/about/scopes">Scopes</a>
+                <a class="dropdown-item" href="/about/committee">Committee</a>
+                <!-- <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a> -->
+              </div>
+            </li>
+            <li class="nav-item dropdown {{ ($title === 'Payment Method - International Conference of Global Confucius Institute') || ($title === 'Registration/Submission - International Conference of Global Confucius Institute') ? 'active' : '' }}">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Registration
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/registration/payment-method">Payment Method</a>
+                <a class="dropdown-item" href="/registration/registration-submission">Registration/Submission</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown {{ ($title === 'Pamphlet - International Conference of Global Confucius Institute') || ($title === 'Template - International Conference of Global Confucius Institute') || ($title === 'Payment Guideline - International Conference of Global Confucius Institute') ? 'active' : '' }}">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Download
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/download/pamphlet">Pamphlet</a>
+                <a class="dropdown-item" href="/download/template">Template</a>
+                <a class="dropdown-item" href="/download/payment-guideline">Payment Guideline</a>
+              </div>
+            </li>
+	          <!-- <li class="nav-item"><a href="/speakers" class="nav-link">Speakers</a></li>
 	          <li class="nav-item"><a href="/schedule" class="nav-link">Schedule</a></li>
-	          <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-	          <li class="nav-item cta mr-md-2"><a href="#" class="nav-link">Buy ticket</a></li>
+	          <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li> -->
+	          <li class="nav-item {{ ($title === 'Venue & Contact - International Conference of Global Confucius Institute') ? 'active' : '' }}"><a href="/venue-contact" class="nav-link">Vanue & Contact</a></li>
+	          <li class="nav-item {{ ($title === 'Register - International Conference of Global Confucius Institute') ? 'active' : '' }} cta mr-md-2"><a href="/register" class="nav-link">Register</a></li>
 
 	        </ul>
 	      </div>
@@ -68,12 +98,14 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Eventalk</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <h2 class="ftco-heading-2">ICGCI</h2>
+              <p>International Conference of Global Confucius Institute</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="mailto:icgci.uns.ac.id"><span class="icon-envelope"></span></a></li>
+                <li class="ftco-animate"><a href="mailto:icgci@mail.uns.ac.id"><span class="icon-envelope"></span></a></li>
+                <!-- <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li> -->
               </ul>
             </div>
           </div>
@@ -88,7 +120,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md">
+          <!-- <div class="col-md">
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Privacy</h2>
               <ul class="list-unstyled">
@@ -98,15 +130,27 @@
                 <li><a href="#" class="py-2 d-block">Services</a></li>
               </ul>
             </div>
+          </div> -->
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Organized By</h2>
+              <ul class="list-unstyled">
+                <li class="py-2 d-block">Confucius Institute</li>
+                <li class="py-2 d-block">Pusat Bahasa Mandarin</li>
+                <li class="py-2 d-block">Universitas Sebelas Maret</li>
+              </ul>
+            </div>
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Jl. Ir. Sutami No. 36, Kentingan, Kec. Jebres, Kota Surakarta, Jawa Tengah 57126</span></li>
+	                <li><a href="tel:089629191999"><span class="icon icon-phone"></span><span class="text">+62 896-2919-1999 (Naning)</span></a></li>
+                  <li><a href="tel:085817672485"><span class="icon icon-phone"></span><span class="text">+62 858-1767-2485 (Fitri)</span></a></li>
+                  <li><a href="tel:085799417600"><span class="icon icon-phone"></span><span class="text">+62 857-9941-7600 (Evi)</span></a></li>
+	                <li><a href="mailto:icgci@mail.uns.ac.id"><span class="icon icon-envelope"></span><span class="text">icgci@mail.uns.ac.id</span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -116,7 +160,7 @@
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> | ICGCI - International Conference of Global Confucius Institute | <a href="https://colorlib.com" target="_blank">Colorlib</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>

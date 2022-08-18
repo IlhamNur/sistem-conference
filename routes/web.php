@@ -14,29 +14,61 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index', [
+        'title' => 'International Conference of Global Confucius Institute'
+    ]);
 });
 
-Route::get('/blog-single', function () {
-    return view('blog-single');
+Route::get('/about/committee', function () {
+    return view('about.committee', [
+        'title' => 'Committee - International Conference of Global Confucius Institute'
+    ]);
 });
 
-Route::get('/blog', function () {
-    return view('blog');
+Route::get('/about/scopes', function () {
+    return view('about.scopes', [
+        'title' => 'Scopes - International Conference of Global Confucius Institute'
+    ]);
 });
 
-Route::get('/about', function () {
-    return view('about');
+Route::get('/download/pamphlet', function () {
+    return view('download.pamphlet', [
+        'title' => 'Pamphlet - International Conference of Global Confucius Institute'
+    ]);
 });
 
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/download/payment-guideline', function () {
+    return view('download.payguide', [
+        'title' => 'Payment Guide - International Conference of Global Confucius Institute'
+    ]);
 });
 
-Route::get('/schedule', function () {
-    return view('schedule');
+Route::get('/download/template', function () {
+    return view('download.template', [
+        'title' => 'Template - International Conference of Global Confucius Institute'
+    ]);
 });
 
-Route::get('/speakers', function () {
-    return view('speakers');
+Route::get('/registration/payment-method', function () {
+    return view('registration.payment', [
+        'title' => 'Payment Method - International Conference of Global Confucius Institute'
+    ]);
+});
+
+Route::get('/registration/registration-submission', function () {
+    return view('registration.registration', [
+        'title' => 'Registration - International Conference of Global Confucius Institute'
+    ]);
+});
+
+Route::get('/venue-contact', function () {
+    return view('contact', [
+        'title' => 'Venue & Contact - International Conference of Global Confucius Institute'
+    ]);
+});
+
+Route::get('/register', function () {
+    return view('register', [
+        'title' => 'Register - International Conference of Global Confucius Institute'
+    ]);
 });
