@@ -19,13 +19,13 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/about/committee', function () {
+Route::get('/about-committee', function () {
     return view('about.committee', [
         'title' => 'Committee - International Conference of Global Confucius Institute'
     ]);
 });
 
-Route::get('/about/scopes', function () {
+Route::get('/about-scopes', function () {
     return view('about.scopes', [
         'title' => 'Scopes - International Conference of Global Confucius Institute'
     ]);

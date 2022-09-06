@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>International Conference of Global Confucius Institute</title>
+    <title>{{ $title }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -54,8 +54,8 @@
                 About
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/about/scopes">Scopes</a>
-                <a class="dropdown-item" href="/about/committee">Committee</a>
+                <a class="dropdown-item" href="/about-scopes">Scopes</a>
+                <a class="dropdown-item" href="/about-committee">Committee</a>
                 <!-- <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a> -->
               </div>
