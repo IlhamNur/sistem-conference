@@ -51,7 +51,7 @@
           </div>
         </div>
 			<div class="row mt-5 pt-5">
-				<div class="col-md-6 ftco-animate">
+				<div class="col-md-6 text-center ftco-animate">
 					<div class="ftco-animate">
 						<div class="categories">
 							<h3>Name</h3>
@@ -60,7 +60,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 ftco-animate">
+				<div class="col-md-6 text-center ftco-animate">
 					<div class="ftco-animate">
 						<div class="categories">
 							<h3>Institution</h3>
@@ -82,7 +82,7 @@
           </div>
         </div>
 	  		<div class="row mt-5 pt-5">
-				<div class="col-md-6 ftco-animate">
+				<div class="col-md-6 text-center ftco-animate">
 					<div class="ftco-animate">
 						<div class="categories">
 							<h3>Name</h3>
@@ -92,7 +92,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 ftco-animate">
-					<div class="ftco-animate">
+					<div class="ftco-animate text-center">
 						<div class="categories">
 							<h3>Institution</h3>
 							<li><a href="">Universitas Sebelas Maret, Indonesia</a></li>
