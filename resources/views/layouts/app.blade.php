@@ -82,8 +82,8 @@
 	          <!-- <li class="nav-item"><a href="/speakers" class="nav-link">Speakers</a></li>
 	          <li class="nav-item"><a href="/schedule" class="nav-link">Schedule</a></li>
 	          <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li> -->
-	          <li class="nav-item {{ ($title === 'Venue & Contact - International Conference of Global Confucius Institute') ? 'active' : '' }}"><a href="/venue-contact" class="nav-link">Vanue & Contact</a></li>
-	          <li class="nav-item {{ ($title === 'Register - International Conference of Global Confucius Institute') ? 'active' : '' }} cta mr-md-2"><a href="/register" class="nav-link">Register</a></li>
+	          <li class="nav-item {{ ($title === 'Venue & Contact - International Conference of Global Confucius Institute') ? 'active' : '' }}"><a href="/venue-contact" class="nav-link">Venue & Contact</a></li>
+	          <li class="nav-item {{ ($title === 'Account - International Conference of Global Confucius Institute') ? 'active' : '' }} cta mr-md-2"><a href="/account" class="nav-link">Account</a></li>
 
 	        </ul>
 	      </div>

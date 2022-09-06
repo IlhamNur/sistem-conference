@@ -67,8 +67,8 @@ Route::get('/venue-contact', function () {
     ]);
 });
 
-Route::get('/register', function () {
-    return view('register', [
-        'title' => 'Register - International Conference of Global Confucius Institute'
+Route::get('/account', function () {
+    return view('account', [
+        'title' => 'Account - International Conference of Global Confucius Institute'
     ]);
 });
