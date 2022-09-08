@@ -7,8 +7,8 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-5">
-            <h1 class="mb-3 bread">Contact Us</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-3 bread">Venue & Contact</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Venue & Contact <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>
@@ -22,16 +22,16 @@
           </div>
           <div class="w-100"></div>
           <div class="col-md-3">
-            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+            <p><span>Address:</span> Jl. Ir. Sutami No. 36, Kentingan, Kec. Jebres, Kota Surakarta, Jawa Tengah 57126</p>
           </div>
           <div class="col-md-3">
-            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+            <p><span>Phone:</span> <a href="tel://089629191999">+62 896-2919-1999</a> (Naning ) | <a href="tel://085817672485">+62 858-1767-2485</a> (Fitri) | <a href="tel://0885799417600">+62 857-9941-7600</a> (Evi)</p>
           </div>
           <div class="col-md-3">
-            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+            <p><span>Email:</span> <a href="mailto:icgci@mail.uns.ac.id">icgci@mail.uns.ac.id</a></p>
           </div>
           <div class="col-md-3">
-            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+            <p><span>Bussiness Hours:</span> <a href="mailto:icgci@mail.uns.ac.id">icgci@mail.uns.ac.id</a></p>
           </div>
         </div>
         <div class="row block-9">
@@ -57,28 +57,14 @@
           </div>
 
           <div class="col-md-6 d-flex">
-          	<div id="map" class="bg-white"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-		<section class="ftco-section-parallax">
-      <div class="parallax-img d-flex align-items-center">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-              <h2>Subcribe to our Newsletter</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-              <div class="row d-flex justify-content-center mt-4 mb-4">
-                <div class="col-md-8">
-                  <form action="#" class="subscribe-form">
-                    <div class="form-group d-flex">
-                      <input type="text" class="form-control" placeholder="Enter email address">
-                      <input type="submit" value="Subscribe" class="submit px-3">
-                    </div>
-                  </form>
-                </div>
-              </div>
+          	<div id="map" class="bg-white">
+              <iframe
+                  style="border: 0;"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d506221.26758651267!2d110.874343!3d-7.590903000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbda63b32997616ad!2sSebelas%20Maret%20University!5e0!3m2!1sen!2sus!4v1629285564716!5m2!1sen!2sus"
+                  width="100%"
+                  height="100%"
+                  allowfullscreen="allowfullscreen"
+              ></iframe>;
             </div>
           </div>
         </div>
