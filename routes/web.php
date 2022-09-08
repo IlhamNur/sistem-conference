@@ -31,31 +31,31 @@ Route::get('/about-scopes', function () {
     ]);
 });
 
-Route::get('/download/pamphlet', function () {
+Route::get('/download-pamphlet', function () {
     return view('download.pamphlet', [
         'title' => 'Pamphlet - International Conference of Global Confucius Institute'
     ]);
 });
 
-Route::get('/download/payment-guideline', function () {
+Route::get('/download-payment-guideline', function () {
     return view('download.payguide', [
         'title' => 'Payment Guide - International Conference of Global Confucius Institute'
     ]);
 });
 
-Route::get('/download/template', function () {
+Route::get('/download-template', function () {
     return view('download.template', [
         'title' => 'Template - International Conference of Global Confucius Institute'
     ]);
 });
 
-Route::get('/registration/payment-method', function () {
+Route::get('/registration-payment-method', function () {
     return view('registration.payment', [
         'title' => 'Payment Method - International Conference of Global Confucius Institute'
     ]);
 });
 
-Route::get('/registration/registration-submission', function () {
+Route::get('/registration-registration-submission', function () {
     return view('registration.registration', [
         'title' => 'Registration - International Conference of Global Confucius Institute'
     ]);

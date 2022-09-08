@@ -65,8 +65,8 @@
                 Registration
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/registration/payment-method">Payment Method</a>
-                <a class="dropdown-item" href="/registration/registration-submission">Registration/Submission</a>
+                <a class="dropdown-item" href="/registration-payment-method">Payment Method</a>
+                <a class="dropdown-item" href="/registration-registration-submission">Registration/Submission</a>
               </div>
             </li>
             <li class="nav-item dropdown {{ ($title === 'Pamphlet - International Conference of Global Confucius Institute') || ($title === 'Template - International Conference of Global Confucius Institute') || ($title === 'Payment Guideline - International Conference of Global Confucius Institute') ? 'active' : '' }}">
@@ -74,9 +74,9 @@
                 Download
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/download/pamphlet">Pamphlet</a>
-                <a class="dropdown-item" href="/download/template">Template</a>
-                <a class="dropdown-item" href="/download/payment-guideline">Payment Guideline</a>
+                <a class="dropdown-item" href="/download-pamphlet">Pamphlet</a>
+                <a class="dropdown-item" href="/download-template">Template</a>
+                <a class="dropdown-item" href="/download-payment-guideline">Payment Guideline</a>
               </div>
             </li>
 	          <!-- <li class="nav-item"><a href="/speakers" class="nav-link">Speakers</a></li>
@@ -92,6 +92,28 @@
     <!-- END nav -->
 
     @yield('container')
+
+  	<section class="ftco-section-parallax">
+      <div class="parallax-img d-flex align-items-center">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+              <h2>ICGCI 2022</h2>
+              <p>Become Participant and Get the Benefit</p>
+              <div class="row d-flex justify-content-center mt-4 mb-4">
+                <div class="col-md-8">
+                  <form action="/account" method="get" class="subscribe-form">
+                    <div class="form-group d-flex justify-content-center">
+                      <input type="submit" value="Register" class="submit px-3">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">

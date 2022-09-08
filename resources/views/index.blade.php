@@ -2,7 +2,7 @@
 
 @section('container')
 
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
@@ -397,28 +397,6 @@
                 <h3 class="heading mb-3">National Journal Journal (Sinta)</h3>
               </div>
             </div>      
-          </div>
-        </div>
-      </div>
-    </section>
-		
-	<section class="ftco-section-parallax">
-      <div class="parallax-img d-flex align-items-center">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-              <h2>ICGCI 2022</h2>
-              <p>Become Participant and Get the Benefit</p>
-              <div class="row d-flex justify-content-center mt-4 mb-4">
-                <div class="col-md-8">
-                  <form action="/account" method="get" class="subscribe-form">
-                    <div class="form-group d-flex justify-content-center">
-                      <input type="submit" value="Register" class="submit px-3">
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
