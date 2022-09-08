@@ -69,21 +69,21 @@
                 <a class="dropdown-item" href="/registration-registration-submission">Registration/Submission</a>
               </div>
             </li>
-            <li class="nav-item dropdown {{ ($title === 'Pamphlet - International Conference of Global Confucius Institute') || ($title === 'Template - International Conference of Global Confucius Institute') || ($title === 'Payment Guideline - International Conference of Global Confucius Institute') ? 'active' : '' }}">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="https://icgci.uns.ac.id/download/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Download
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/download-pamphlet">Pamphlet</a>
-                <a class="dropdown-item" href="/download-template">Template</a>
-                <a class="dropdown-item" href="/download-payment-guideline">Payment Guideline</a>
+                <a class="dropdown-item" href="https://icgci.uns.ac.id/pamphlet/">Pamphlet</a>
+                <a class="dropdown-item" href="https://docs.google.com/document/d/1CNsoTkIy1aW7G48IPIiYYkGFma0IlBsD/edit?usp=sharing&ouid=116342877308026935988&rtpof=true&sd=true">Template</a>
+                <a class="dropdown-item" href="https://icgci.uns.ac.id/payment-guideline/">Payment Guideline</a>
               </div>
             </li>
 	          <!-- <li class="nav-item"><a href="/speakers" class="nav-link">Speakers</a></li>
 	          <li class="nav-item"><a href="/schedule" class="nav-link">Schedule</a></li>
 	          <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li> -->
 	          <li class="nav-item {{ ($title === 'Venue & Contact - International Conference of Global Confucius Institute') ? 'active' : '' }}"><a href="/venue-contact" class="nav-link">Venue & Contact</a></li>
-	          <li class="nav-item {{ ($title === 'Account - International Conference of Global Confucius Institute') ? 'active' : '' }} cta mr-md-2"><a href="/account" class="nav-link">Account</a></li>
+	          <li class="nav-item cta mr-md-2"><a href="https://theconference.id/index.php/icgci/icgci2021" class="nav-link">Account</a></li>
 
 	        </ul>
 	      </div>
@@ -102,7 +102,7 @@
               <p>Become Participant and Get the Benefit</p>
               <div class="row d-flex justify-content-center mt-4 mb-4">
                 <div class="col-md-8">
-                  <form action="/account" method="get" class="subscribe-form">
+                  <form action="https://theconference.id/index.php/icgci/icgci2021" method="get" class="subscribe-form">
                     <div class="form-group d-flex justify-content-center">
                       <input type="submit" value="Register" class="submit px-3">
                     </div>

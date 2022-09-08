@@ -43,10 +43,10 @@
 	              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab">
 	              	<div class="speaker-wrap ftco-animate d-flex">
 	              		<div class="text pl-md-5">
-	              			<h2><a href="#">Reviewer</a></h2>
+	              			<h2>Reviewer</h2>
 	              			<p>Research on the history of the arrival of the Chinese in the local area.</p>
 							<p>Research on the culture inherited in the local area, such as eating habits, way of life, socializing, etc.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Dr. Susanto, M.Hum.</a> <span class="position">Head of History Study Program</span></h3>
+	              			<h3 class="speaker-name">&mdash; Dr. Susanto, M.Hum. <span class="position">Head of History Study Program</span></h3>
 	              		</div>
 	              	</div>
 	              </div>
@@ -54,9 +54,9 @@
 	              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">
 	              	<div class="speaker-wrap ftco-animate d-flex">
 	              		<div class="text pl-md-5">
-						  <h2><a href="#">Reviewer</a></h2>
+						  <h2>Reviewer</h2>
 	              			<p>Research on the study of Chinese literature in the local area, for example in Indonesia, there is a work of Peranakan Chinese writer, Koo Phing Hoo.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Dr. Dwi Susanto, S.S., M.Hum.</a> <span class="position">Head of Indonesian Language Study Program</span></h3>
+	              			<h3 class="speaker-name">&mdash; Dr. Dwi Susanto, S.S., M.Hum. <span class="position">Head of Indonesian Language Study Program</span></h3>
 	              		</div>
 	              	</div>
 	              </div>
@@ -64,9 +64,9 @@
 	              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-day-3-tab">
 	              	<div class="speaker-wrap ftco-animate d-flex">
 	              		<div class="text pl-md-5">
-						  <h2><a href="#">Reviewer</a></h2>
+						  <h2>Reviewer</h2>
 							<p>Research on Linguistics, where there are Chinese vocabulary that is absorbed by the local language.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Dr. FX Sawardi, M.Hum.</a> <span class="position">Head of Masters Degree in Linguistics</span></h3>
+	              			<h3 class="speaker-name">&mdash; Dr. FX Sawardi, M.Hum. <span class="position">Head of Masters Degree in Linguistics</span></h3>
 	              		</div>
 	              	</div>
 	              </div>
@@ -74,9 +74,9 @@
 	              <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-day-4-tab">
 	              	<div class="speaker-wrap ftco-animate d-flex">
 	              		<div class="text pl-md-5">
-						  <h2><a href="#">Reviewer</a></h2>
+						  <h2>Reviewer</h2>
 							<p>Research on the development of Chinese language teaching in the local area.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Soen AiLing.</a> <span class="position"></span></h3>
+	              			<h3 class="speaker-name">&mdash; Soen AiLing. <span class="position"></span></h3>
 	              		</div>
 	              	</div>
 	              </div>

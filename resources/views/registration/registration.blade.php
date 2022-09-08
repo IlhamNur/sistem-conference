@@ -31,7 +31,7 @@
                     <div class="icon"><span class="icon-paste"></span></div>
 	            <span class="excerpt d-block">If you want to register as a <strong>participant</strong> please click the button below</span>
                 </div>
-	            <a href="/account" class="btn btn-primary d-block px-2 py-3">Registration</a>
+	            <a href="https://forms.gle/37oMALhhYtcWjwR68" class="btn btn-primary d-block px-2 py-3">Registration</a>
 	            </div>
 	          </div>
 	        </div>
@@ -43,7 +43,7 @@
                     <div class="icon"><span class="icon-copy"></span></div>
 	            <span class="excerpt d-block">If you want to <strong>submit a paper</strong>, please click the button below<br><br></span>
                 </div>
-	            <a href="/account" class="btn btn-primary d-block px-2 py-3">Submission</a>
+	            <a href="https://theconference.id/index.php/icgci/icgci2021" class="btn btn-primary d-block px-2 py-3">Submission</a>
 	            </div>
 	          </div>
 	        </div>
