@@ -135,10 +135,11 @@
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">Useful Links</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Speakers</a></li>
-                <li><a href="#" class="py-2 d-block">Shcedule</a></li>
-                <li><a href="#" class="py-2 d-block">Events</a></li>
-                <li><a href="#" class="py-2 d-block">Blog</a></li>
+                <li><a href="/about-scopes" class="py-2 d-block">Scopes</a></li>
+                <li><a href="/about-committee" class="py-2 d-block">Committee</a></li>
+                <li><a href="/registration-payment" class="py-2 d-block">Payment Method</a></li>
+                <li><a href="/registration-registration-submission" class="py-2 d-block">Registration/Submission</a></li>
+                <li><a href="/venue-contact" class="py-2 d-block">Venue & Contact</a></li>
               </ul>
             </div>
           </div>
